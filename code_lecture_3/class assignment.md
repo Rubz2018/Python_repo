@@ -21,7 +21,7 @@
 - Using List comprehension Generate a list of squares of numbers from 1 to 10.
 - Using List Comprehension Create a list of even numbers from 1 to 2
 
-### List Operations
+### List Operations #Home Work
 - Slice a list to extract the first 3 and last 3 elements.
 - Add an item to a list, remove an item, and change an item at a given index.
 - Copy a list and verify that modifying the copy does not affect the original.
