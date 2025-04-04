@@ -14,7 +14,8 @@ librarian.add_book(102, "AI with Python", "Jane Smith", 2)
 member = Member(201, "Bob")
 book = lib.find_book(101)
 if book:
-    member.borrow_book(book)
-
+    sucess = member.borrow_book(book)
+    if sucess:
+        lib.save_data()
 # Display books
 librarian.display_books()

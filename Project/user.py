@@ -13,8 +13,10 @@ class Member(User):
             self.borrowed_books.append(book.title)
             book.copies -= 1
             print(f"{self.name} borrowed {book.title}")
+            return True
         else:
-            print("Book not available.")
+            print("No copy of book is available.")
+            return False
 
     def return_book(self, book):
         if book.title in self.borrowed_books:
