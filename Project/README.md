@@ -24,3 +24,11 @@ Features:
 ✅ Polymorphism → display_info() can be modified for future enhancements.
 ✅ Abstraction → Library class hides the database handling details.
 
+
+Assignment and Presentation using OOP : (Deadline 11/03/2025)
+- Student Attendance System : Tazmirul
+- Bank Account System : Waique
+- Inventory Management System : Taukir
+- Railway Train Booking system : Arka
+- Task Managemnt System : Kuddus  
+- E-commerse order Managemnt system : Tuhin
