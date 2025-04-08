@@ -24,6 +24,7 @@ if account:
     customer.withdraw(account, 100)
 else:
     print("Account not found!")
+
 print(f"The final balance of {account.acc_id}:{account.holder_name} is ${account.balance}")
 # Save updated data
 bank.accounts = manager.accounts  # Sync created accounts to bank system
