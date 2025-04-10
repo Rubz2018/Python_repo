@@ -1,5 +1,3 @@
-# bank.py
-
 import json
 from account import Account
 
