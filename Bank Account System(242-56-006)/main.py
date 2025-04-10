@@ -23,7 +23,7 @@ if account:
 else:
     print("Account not found!")
 
-print(f"The final balance of {account.acc_id}:{account.holder_name} is {account.balance}BDT")
+print(f"The final balance of {account.acc_id}:{account.holder_name} is {account.balance} BDT")
 # Save updated data
 bank.accounts = manager.accounts  # Sync created accounts to bank system
 bank.save_data()

@@ -11,13 +11,13 @@ class Customer(User):
     def deposit(self, account, amount):
         if amount > 0:
             account.balance += amount
-            print(f"{amount:.2f}BDT deposited to Account ID {account.acc_id}")
+            print(f"{amount:.2f} BDT deposited to Account ID {account.acc_id}")
         else:
             print("Invalid amount.")
 
     def withdraw(self, account, amount):
         if 0 < amount <= account.balance:
             account.balance -= amount
-            print(f"{amount:.2f}BDT withdrawn from Account ID {account.acc_id}")
+            print(f"{amount:.2f} BDT withdrawn from Account ID {account.acc_id}")
         else:
             print("Insufficient funds or invalid amount.")

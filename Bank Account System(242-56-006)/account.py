@@ -5,4 +5,4 @@ class Account:
         self.balance = balance  # Initial balance
 
     def display_info(self):
-        return f"Account ID: {self.acc_id}, Holder: {self.holder_name}, Balance: {self.balance:.2f}BDT"
+        return f"Account ID: {self.acc_id}, Holder: {self.holder_name}, Balance: {self.balance:.2f} BDT"
