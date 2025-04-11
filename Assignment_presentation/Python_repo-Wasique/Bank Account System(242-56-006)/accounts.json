@@ -1,12 +1,1 @@
-[
-    {
-        "acc_id": 1001,
-        "holder_name": "Wasique",
-        "balance": 600.0
-    },
-    {
-        "acc_id": 1002,
-        "holder_name": "Azad",
-        "balance": 300.0
-    }
-]
+[{"acc_id": 1001, "holder_name": "Wasique", "balance": 500.0}, {"acc_id": 1002, "holder_name": "Azad", "balance": 300.0}]
