@@ -3,8 +3,8 @@
 1. Bank Account Management System where we create a BankAccount class that allows a user to deposit and withdraw money. Possible variables are account_name, balance
 2. Hospital Management System :  This system has a base class Person and two subclasses: Doctor and Patient that inherit attributes and define additional ones.
 Base/parent class (Person) attributes : name , age, gender
-Person/sub class Doctor attributes : name,age, gender, speciality, salary
-Person/sub class Patient attributes : name,age, gender, Disease, Fee
+child/sub class Doctor attributes : name,age, gender, speciality, salary
+child/sub class Patient attributes : name,age, gender, Disease, Fee
 
 
 
